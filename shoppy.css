@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.headertop{
+    width: 100%;
+    height: 3.5vh;
+    background-color: #4f3f68;
+}
+
+.headertopmain{
+    max-width:1400px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help1{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px white solid;
+    font-size: 13px;
+    color: white;
+}
+.help2{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px white solid;
+    font-size: 12px;
+    color: silver;
+}
+.help3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+} 
+.hello{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.headermain{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.headermainmain{
+    width: 1400px;
+    height: 60%;
+    margin: auto;display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+.hambutton{
+    width: 25%;
+    height: 90%;
+    border-radius:3px ;
+  display: flex;
+  justify-content: center;align-items: center;
+  flex-direction: column;
+  background-color: #4f3f68;
+  gap:5px;
+}
+.first{
+    width: 30px;
+    height: 3px;
+    background-color: gold;
+}
+.second{
+    width: 30px;
+    height: 3px;
+    background-color: gold;
+}
+
+.third{
+    width: 30px;
+    height: 3px;
+    background-color: gold;
+}
+.logo{
+    width:70%;
+    height: 90%;
+    background-image: url(https://shoppy.mn/7aa23ad0466ab6ce47165f36182ff2b2.svg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+
+}
+.search{
+    width: 50%;
+    height: 80%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius:10px;
+}
+#search{
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    border-radius:2px;
+    background-color: #f3f3f3;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+}
+.navbar{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.headerbottom{
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid black;
+}
+.headerbottommain{
+    max-width: 1400px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomone{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.bottomone ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 13px;
+}
+.bottomtwo{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 13px;
+}
+.bottomtwo ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#card{
+    padding:10px;
+    background-color: #1a7a59;
+    border-radius:5px;
+    color: white;
+}
+.body{    width: 100%;    height: 650px;    background-image: url(https://cdn3.shoppy.mn/assets/2270/content/login-shoppy2.jpg);      background-position: cover;}.bodys{    max-width: 1356px;    height: 650px;    margin: auto;    display: flex;    align-items: center;    justify-content: end; }.login-section{    width: 330px;    height: 490px;    background-color: #ffff;    z-index: 100;    border-radius: 20px;    border: 8px solid rgb(255, 212, 82);    padding: 40px 50px;    padding-bottom: -200px;    }.sign{    display: flex;    justify-content: center;      width: 314px;    height: 35px;}.sign a{    width: 93.7px;    height: 35px;    text-align: center;    color: #242424;    font-size: 18px;    font-weight: 500;}.fb{    width: 314px;    height: 48.5px;    background-color: #3b5998;    border-radius: 5px;    margin-top: 10px;    border: none;}.fb a{    color: #ffffff;    font-size: 15px;}.line{    padding-top: 20px;    width: 74%;    display: flex;    margin: auto;    margin-top: 15px;    font-size: 15px;}.line p{    color: grey;    padding-left: 10px;    padding-right: 10px;}.line1{    width: 30%;    margin: auto;    border: 0.1px solid grey;}.line2{    width: 30%;    margin: auto;    border: 0.1px solid grey;}.place{    padding-top: 50px;    width: 314px;    height: 140px;    display: flex;    flex-direction: column;    justify-content: space-around;}.place input{    width: 314px;    height: 48px;    color: grey;    border: 0.1px solid grey;}.place input:placeholder-shown{    padding-left: 30px;}.continue{    width: 100%;    height: 52.5px;}.btn-con{    width: 314px;    height: 52.5px;    border: none;    background-color: #f56c73;    color: #ffffff;    font-size: 15px;    border-radius: 10px;}.para{    width: 100%;    height: 92px;    color: #242424;    font-size: 12px;    padding-top: 50px;    font-weight: bold;}.para a{    color: blue;}
+.suuri{
+    width: 100%;
+    height: 50vh;
+}
+.suurimain{
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.suurimain p{
+    color: #4f3f68;
+    font-size: 15px;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+}
+.suurimain ul{
+    list-style: none;
+    font-size: 13px;
+    color: #000000;;
+}
+.shoopymn{
+width: 20%;
+height: 90%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ontsgoi{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    }
+
+    .tuslamj{
+        width: 20%;
+        height: 90%;
+       
+        }
+        .hayg{
+            width: 20%;
+            height: 90%;
+         
+            }.app{
+                width: 20%;
+                height: 90%;
+                
+                }
+ .ontsgoi{
+     display: flex;
+flex-direction: column;
+ }      
+ .tuslamj{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ }        
+ .hayg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ } 
+ .app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+.shoopymn1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+.shoopymn2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+.tuslamj1{
+width: 100%;
+height: 50%;
+}
+.tuslamj2{
+    width: 100%;
+    height: 50%;
+    }
