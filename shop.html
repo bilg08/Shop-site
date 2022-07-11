@@ -260,35 +260,47 @@ function deleteItem(e){
 
 let deleteId=parseInt(e.getAttribute("data"));
 console.log(deleteId);
-selectedProducts=selectedProducts.filter(function(item){
-    return item.id !== deleteId;
+// selectedProducts=selectedProducts.filter(function(item){
+//     return item.id !== deleteId;
 
-});
+// });
 
 selectedProducts.forEach((product)=>{
-    if(product.id===deleteId){
-        console.log("haha");
+    if(product.id===deleteId)
+    {
+        console.log("haah",product,selectedProducts.indexOf(product) );
     }
+    selectedProducts.splice(selectedProducts.indexOf(product),1);
+    niitMongonDun(product.id);
 })
+
+        selectedProducts.forEach((product)=>{
+            if(product.id===deleteId){
+                console.log("haha");
+            }
+        })
+        
+
         console.log(selectedProducts);
         listItemInCart();
+        
 }
     
 
  function niitMongonDun(){
+    console.log();
+    let totalprice=0;
+  selectedProducts.forEach((product)=>{
+    totalprice+=parseFloat(product.totalPrice);
+    console.log(product.count);
     
-    let priceTotal=0;
-console.log(selectedProducts.length);
-    for(let i=0;i<selectedProducts.length;i++)
-    {
-        
-        priceTotal=+parseFloat(selectedProducts[i].totalPrice);
-    }
+  });
+
     
-    document.getElementById("niitDunSags").innerText=priceTotal;
+    document.getElementById("niitDunSags").innerText=totalprice;
  }
 
-
+console.log(selectedProducts);
         
 
           
