@@ -214,8 +214,10 @@ async function uneNemegdeh (e) {
                  }
                }
                niitMongonDun();
+               console.log(selectedProducts);
               
 }
+
 //unehasagdah 
 function uneHasagdah(e){
     console.log(e.getAttribute("data"));
@@ -247,6 +249,7 @@ function uneHasagdah(e){
                  }
                }
                niitMongonDun();
+               console.log(selectedProducts);
               
 
 }
@@ -270,16 +273,18 @@ selectedProducts.forEach((product)=>{
         console.log(selectedProducts);
         listItemInCart();
 }
+    
 
  function niitMongonDun(){
+    
     let priceTotal=0;
-       
+console.log(selectedProducts.length);
     for(let i=0;i<selectedProducts.length;i++)
     {
-        console.log("hello",selectedProducts[i].id,selectedProducts[i].totalPrice)
+        
         priceTotal=+parseFloat(selectedProducts[i].totalPrice);
     }
-    console.log("niitMongonDun",priceTotal);
+    
     document.getElementById("niitDunSags").innerText=priceTotal;
  }
 
